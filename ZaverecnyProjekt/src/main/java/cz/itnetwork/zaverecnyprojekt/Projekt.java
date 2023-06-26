@@ -10,7 +10,7 @@ import java.util.Scanner;
  *
  * @author PC03
  */
-public class projekt {
+public class Projekt {
     public static void main(String[] args) {
         
        Evidence evidence = new Evidence();
