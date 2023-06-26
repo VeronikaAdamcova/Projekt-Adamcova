@@ -41,7 +41,7 @@ public class Projekt {
                 System.out.println("Zadejte telefonní číslo bez mezer:");
                 String cislo = sc.nextLine();
                 
-                while (cislo.trim().length()>9){
+               while ((cislo.trim().length()>9)||(cislo.trim().length()<9)){
                     System.out.println("Telefonní číslo bylo zapsáno chybně.");
                     System.out.println("Zapište nové telefoní číslo ve tvaru [777555333]:");
                     cislo = sc.nextLine();
